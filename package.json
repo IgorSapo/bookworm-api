@@ -1,0 +1,23 @@
+{
+  "name": "bookworm-api",
+  "version": "1.0.0",
+  "description": "API for bookworm-react app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "IgorSapo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
